@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "lsc -c lib/generator.ls",
-    "test": "gulp test"
+    "test": "gulp test",
+    "coverage": "coveralls < coverage/lcov.info"
   },
   "author": {
     "name": "Pine Mizune",
@@ -23,6 +24,7 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^2.1.2",
+    "coveralls": "^2.11.2",
     "gulp": "^3.8.11",
     "gulp-cli": "^0.2.0",
     "gulp-istanbul": "^0.7.0",
