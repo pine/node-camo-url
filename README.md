@@ -32,14 +32,14 @@ console.log(camoUrl('http://www.example.com/example.jpg'));
 ### require('camo-url')(options)
 Initialize this package.
 
- - options: `object` ... information of your camo server (optional)
-   - `host`: host name (optional)
+ - options ... Type: `object` ... information of your camo server (optional)
+   - host: host name (optional)
      - Type: `string`
      - Default: `'http://localhost:8081'`
-   - `key`: camo key (optional)
+   - key: camo key (optional)
      - Type: `string`
      - Default: `'0x24FEEDFACEDEADBEEFCAFE'`
-   - `type`: proxied url type (optional)
+   - type: proxied url type (optional)
      - Type: `'query'` or `'path'`
      - Default: `'query'`
 
