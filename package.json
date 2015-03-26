@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "description": "Create a image url by proxy that is camo.",
   "main": "index.js",
+  "files": {
+    "*.md",
+    "LICENSE",
+    "index.js",
+    "lib"
+  },
   "scripts": {
     "postinstall": "lsc -c lib/generator.ls",
     "test": "gulp test",
