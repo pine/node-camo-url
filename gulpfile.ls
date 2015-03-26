@@ -1,5 +1,6 @@
 require! {
   gulp
+  'run-sequence'
   'gulp-util': gutil
   'gulp-rename': rename
   'gulp-livescript': livescript
@@ -39,5 +40,8 @@ gulp.task 'watch', ->
   gulp.watch <[ index.js lib/**/*.js test/**/*/js ]>, <[ coverage ]>
 
 
-gulp.task 'test', <[ coverage ]>
+gulp.task 'test', (cb) ->
+  run-sequence 'livescript', 'coverage', cb
+
+
 gulp.task 'default', <[ livescript ]>

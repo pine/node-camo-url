@@ -5,9 +5,21 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "lsc -c lib/generator.ls",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
-  "author": "Pine Mizune",
+  "author": {
+    "name": "Pine Mizune",
+    "email": "pinemz@gmail.com",
+    "url": "https://github.com/pine613"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pine613/node-camo-url.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pine613/node-camo-url/issues"
+  },
+  "homepage": "https://github.com/pine613/node-camo-url",
   "license": "MIT",
   "devDependencies": {
     "chai": "^2.1.2",
@@ -18,7 +30,8 @@
     "gulp-mocha": "^2.0.0",
     "gulp-plumber": "^1.0.0",
     "gulp-rename": "^1.2.0",
-    "gulp-util": "^3.0.4"
+    "gulp-util": "^3.0.4",
+    "run-sequence": "^1.0.2"
   },
   "dependencies": {
     "LiveScript": "^1.3.1",
