@@ -59,6 +59,20 @@ Get digest of an image URL.
  - returns: digest of the URL
    - Type: `string`
 
+## FAQ
+### Q. How do I create a GitHub style camo's URL?
+A. Please try `type: 'path'` option.
+
+```js
+var camoUrl = require('camo-url')({
+  host: 'https://camo.yourdomain.com',
+  key: 'your_camo_key',
+  type: 'path'
+});
+
+console.log(camoUrl('http://www.example.com/example.jpg'));
+// => https://camo.yourdomain.com/c8b84571f98f34c41f7b4810a605e06d872eecd0/687474703a2f2f7777772e6578616d706c652e636f6d2f6578616d706c652e6a7067
+```
 
 ## License
 MIT License<br />
