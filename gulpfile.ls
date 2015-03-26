@@ -1,7 +1,6 @@
 require! {
   gulp
   'run-sequence'
-  'gulp-util': gutil
   'gulp-rename': rename
   'gulp-livescript': livescript
   'gulp-istanbul': istanbul
