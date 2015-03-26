@@ -28,6 +28,38 @@ console.log(camoUrl('http://www.example.com/example.jpg'));
 // => https://camo.yourdomain.com/c8b84571f98f34c41f7b4810a605e06d872eecd0?url=http%3A%2F%2Fwww.example.com%2Fexample.jpg
 ```
 
+## References
+### require('camo-url')(options)
+Initialize this package.
+
+ - options: `object` ... information of your camo server (optional)
+   - `host`: host name (optional)
+     - Type: `string`
+     - Default: `'http://localhost:8081'`
+   - `key`: camo key (optional)
+     - Type: `string`
+     - Default: `'0x24FEEDFACEDEADBEEFCAFE'`
+   - `type`: proxied url type (optional)
+     - Type: `'query'` or `'path'`
+     - Default: `'query'`
+
+### camoUrl(imageUrl)
+Generate a proxied image URL.
+
+ - imageUrl: an absolute URL of an image
+   - Type: `string`
+ - returns: proxied URL
+   - Type: `string`
+
+### camoUrl.digest(imageUrl)
+Get digest of an image URL.
+
+ - imageUrl: an absolute URL of an image
+   - Type: `string`
+ - returns: digest of the URL
+   - Type: `string`
+
+
 ## License
 MIT License<br />
 Copyright (c) 2015 Pine Mizune
