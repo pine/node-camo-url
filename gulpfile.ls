@@ -10,6 +10,8 @@ require! {
 
 
 gulp.task 'coverage', (cb) !->
+  mochaErr = null
+  
   gulp.src <[ lib/**/*.js ]>
     .pipe istanbul( includeUntested: true )
     .pipe istanbul.hookRequire()
@@ -17,11 +19,11 @@ gulp.task 'coverage', (cb) !->
       gulp.src 'test/**/*.js'
         .pipe mocha( reporter: 'spec', timeout: 10 * 1000 )
         .on 'error', (err) ->
-          gutil.log(err)
+          mochaErr := err
           @emit('end')
         .pipe istanbul.writeReports()
         .once 'end', ->
-          cb()
+          cb(mochaErr)
 
 
 gulp.task 'livescript', ->
