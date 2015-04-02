@@ -32,7 +32,6 @@
     "chai": "^2.1.2",
     "coveralls": "^2.11.2",
     "gulp": "^3.8.11",
-    "gulp-cli": "^0.2.0",
     "gulp-istanbul": "^0.7.0",
     "gulp-livescript": "^2.3.0",
     "gulp-mocha": "^2.0.0",
