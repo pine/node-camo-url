@@ -8,3 +8,7 @@ node_js:
 
 after_script:
   - npm run coverage
+
+notifications:
+  slack:
+    secure: "hYaPlNvtjw7bZ36qVKwPIXyIAfwcs7b2NdBpCmFqCAopYIE8qxmBjD0IxBR+2U4Eyf/3UUTwpsjHb304uiQW656ObceArBZMIy4/IVXRauz5jLOqWZ1ay0WNExc0QP2qePGU864ruPmp21fxntY6NSLyD+YhZAnwbs7QksDmKFQ="
