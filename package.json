@@ -29,10 +29,10 @@
   "homepage": "https://github.com/pine613/node-camo-url",
   "license": "MIT",
   "devDependencies": {
-    "chai": "^2.1.2",
+    "chai": "^3.3.0",
     "coveralls": "^2.11.2",
     "gulp": "^3.8.11",
-    "gulp-istanbul": "^0.8.1",
+    "gulp-istanbul": "^0.10.1",
     "gulp-livescript": "^2.3.0",
     "gulp-mocha": "^2.0.0",
     "gulp-plumber": "^1.0.0",
