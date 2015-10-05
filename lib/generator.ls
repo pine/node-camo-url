@@ -11,13 +11,13 @@ require! {
 defaults =
   host: 'http://localhost:8081'
   key: '0x24FEEDFACEDEADBEEFCAFE'
-  type: 'query'
+  type: \query
 
 
 digest = (key, data) ~~>
-  hmac = crypto.create-hmac('sha1', key)
+  hmac = crypto.create-hmac(\sha1, key)
   hmac.update(data)
-  hmac.digest('hex')
+  hmac.digest(\hex)
 
 
 query = (d, host, url) ->
@@ -30,9 +30,9 @@ path = (d, host, url) ->
 
 
 hex-url = (url) ->
-  buffer = new Buffer(url, 'utf-8')
+  buffer = new Buffer(url, \utf-8)
   bytes = Array.prototype.slice.call(buffer)
-  
+
   bytes
     |> map (.to-string 16)
     |> unchars
@@ -41,13 +41,13 @@ hex-url = (url) ->
 module.exports = (options) ->
   options = extend(defaults, options)
   converter = switch options.type
-    | 'query' => query
-    | 'path' => path
+    | \query => query
+    | \path => path
 
   fn = (url) ->
     d = digest(options.key, url)
     converter(d, options.host, url)
-  
+
   fn.digest = (digest options.key)
-  
+
   fn
