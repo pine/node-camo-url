@@ -12,4 +12,4 @@ after_script:
 
 notifications:
   slack:
-    secure: "hYaPlNvtjw7bZ36qVKwPIXyIAfwcs7b2NdBpCmFqCAopYIE8qxmBjD0IxBR+2U4Eyf/3UUTwpsjHb304uiQW656ObceArBZMIy4/IVXRauz5jLOqWZ1ay0WNExc0QP2qePGU864ruPmp21fxntY6NSLyD+YhZAnwbs7QksDmKFQ="
+    secure: "Tr61iRUdZXNNwwoxlAio/+R2v8ib+DWXpCkAHfjDVmE6dVcrdjmgnUI7CFsALyah9QB7no0V4rWatjVJTLTi6dhgrxXUlFFwkj57ffPdTIIgV2UkvY6FBhjesFh3YLuGev7xebFrHHJVRyRoi3gZBhVB4yWElKCiccjZH9USmuk="
