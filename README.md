@@ -3,7 +3,7 @@ camo-url
 
 [![npm version](https://img.shields.io/npm/v/camo-url.svg?style=flat-square)](https://www.npmjs.com/package/camo-url)
 [![Build Status](http://img.shields.io/travis/pine/node-camo-url/master.svg?style=flat-square)](https://travis-ci.org/pine/node-camo-url)
-[![Coverage Status](https://coveralls.io/repos/pine613/node-camo-url/badge.svg?branch=master)](https://coveralls.io/r/pine/node-camo-url?branch=master)
+[![Coverage Status](https://img.shields.io/coveralls/pine/node-camo-url/master.svg?style=flat-square)](https://coveralls.io/r/pine/node-camo-url?branch=master)
 [![Dependency Status](https://img.shields.io/david/pine/node-camo-url.svg?style=flat-square)](https://david-dm.org/pine/node-camo-url)
 [![devDependency Status](https://img.shields.io/david/dev/pine/node-camo-url.svg?style=flat-square)](https://david-dm.org/pine/node-camo-url#info=devDependencies)
 
