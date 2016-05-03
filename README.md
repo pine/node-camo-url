@@ -75,5 +75,4 @@ console.log(camoUrl('http://www.example.com/example.jpg'));
 ```
 
 ## License
-MIT License<br />
-Copyright (c) 2015-2016 Pine Mizune
+MIT License
