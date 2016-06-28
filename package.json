@@ -1,6 +1,6 @@
 {
   "name": "camo-url",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Create a image url by proxy that is camo.",
   "main": "index.js",
   "files": [
