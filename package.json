@@ -7,10 +7,10 @@
     "*.md",
     "LICENSE",
     "index.js",
-    "lib"
+    "lib/**/*.js"
   ],
   "scripts": {
-    "postinstall": "lsc -c lib/generator.ls",
+    "prepublish": "gulp",
     "test": "gulp test",
     "coverage": "coveralls < coverage/lcov.info"
   },
@@ -34,13 +34,13 @@
     "gulp": "^3.8.11",
     "gulp-istanbul": "^1.0.0",
     "gulp-livescript": "^3.0.0",
-    "gulp-mocha": "^2.0.0",
+    "gulp-mocha": "2.2.0",
     "gulp-plumber": "^1.0.0",
     "gulp-rename": "^1.2.0",
+    "livescript": "^1.4.0",
     "run-sequence": "^1.0.2"
   },
   "dependencies": {
-    "livescript": "^1.4.0",
     "prelude-ls": "^1.1.1",
     "xtend": "^4.0.0"
   }
