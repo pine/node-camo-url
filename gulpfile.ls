@@ -11,7 +11,7 @@ require! {
 
 gulp.task 'coverage', (cb) !->
   mochaErr = null
-  
+
   gulp.src <[ lib/**/*.js ]>
     .pipe istanbul( includeUntested: true )
     .pipe istanbul.hookRequire()
