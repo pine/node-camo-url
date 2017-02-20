@@ -75,4 +75,4 @@ console.log(camoUrl('http://www.example.com/example.jpg'));
 ```
 
 ## License
-MIT License
+MIT &copy; Pine Mizune
