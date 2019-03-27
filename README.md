@@ -5,7 +5,7 @@ camo-url
 [![Build Status](http://img.shields.io/travis/pine/node-camo-url/master.svg?style=flat-square)](https://travis-ci.org/pine/node-camo-url)
 [![Coverage Status](https://img.shields.io/coveralls/pine/node-camo-url/master.svg?style=flat-square)](https://coveralls.io/r/pine/node-camo-url?branch=master)
 [![Dependency Status](https://img.shields.io/david/pine/node-camo-url.svg?style=flat-square)](https://david-dm.org/pine/node-camo-url)
-[![devDependency Status](https://img.shields.io/david/dev/pine/node-camo-url.svg?style=flat-square)](https://david-dm.org/pine/node-camo-url#info=devDependencies)
+[![devDependency Status](https://img.shields.io/david/dev/pine/node-camo-url.svg?style=flat-square)](https://david-dm.org/pine/node-camo-url#info=devDependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/pine/node-camo-url.svg)](https://greenkeeper.io/)
 
 Create a image url by proxy that is [camo](https://github.com/atmos/camo).
 
