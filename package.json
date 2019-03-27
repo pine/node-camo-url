@@ -29,16 +29,16 @@
   "homepage": "https://github.com/pine613/node-camo-url",
   "license": "MIT",
   "devDependencies": {
-    "chai": "^3.3.0",
-    "coveralls": "^2.11.2",
-    "gulp": "^3.8.11",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.3",
+    "gulp": "^4.0.0",
     "gulp-istanbul": "^1.0.0",
     "gulp-livescript": "^3.0.0",
-    "gulp-mocha": "2.2.0",
+    "gulp-mocha": "6.0.0",
     "gulp-plumber": "^1.0.0",
     "gulp-rename": "^1.2.0",
     "livescript": "^1.4.0",
-    "run-sequence": "^1.0.2"
+    "run-sequence": "^2.2.1"
   },
   "dependencies": {
     "prelude-ls": "^1.1.1",
